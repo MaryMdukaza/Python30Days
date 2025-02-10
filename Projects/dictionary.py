@@ -38,6 +38,7 @@ class DictionaryApp:
     def close(self):
         self.conn.close()
 
+# main function
 def main():
     dictionary  = DictionaryApp("words.db")
     while True:
